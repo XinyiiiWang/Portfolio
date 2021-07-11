@@ -1,45 +1,34 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+
+import ListifyImg from '../images/Listify.png';
+import SabelImg from '../images/Sabel & Tiny.png';
+import SteamindImg from '../images/Steamind.png';
+import SpirImg from '../images/Spir.png';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
-    desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+    name: 'Listify',
+    desc: 'The interface of customizing your playlists and discovering inspirations for your playlists.',
+    img: ListifyImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
-    desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+    name: 'Sabel & Tiny',
+    desc: 'A 2D side scroller platform puzzle game where the player has control over Sabel and her companion Tiny as they explore the world, a moon named Mira.',
+    img: SabelImg,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
-    desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+    name: 'Steamind',
+    desc: 'Steamind is a tool for visualizing games from your own Steam library as well as other games from Steam that might suit your interests.',
+    img: SteamindImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+    name: 'Spir: Take a breather with a smart coaster',
+    desc: 'Take a breather with a smart coaster',
+    img: SpirImg,
   },
 ];
 
