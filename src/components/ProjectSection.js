@@ -31,9 +31,9 @@ export default function ProjectsSection() {
                 slidesPerView: 2,
               },
               // when window width is >= 1200px
-              1200: {
-                slidesPerView: 3,
-              },
+              // 1200: {
+              //   slidesPerView: 3,
+              // },
             }}
           >
             {projects.map((project, index) => {
