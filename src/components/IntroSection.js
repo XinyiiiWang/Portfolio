@@ -23,7 +23,7 @@ export default function IntroSection() {
               I am a front-end developer, music lover, and fika addict based in
               Stockholm, Sweden.
             </PText>
-            <Button btnLink="/projects" btnText="see my works" />
+            <Button btnLink="/Portfolio/projects" btnText="see my works" />
           </div>
           <div className="intro_social">
             <div className="intro_social_indicator">

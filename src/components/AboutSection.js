@@ -23,8 +23,8 @@ export default function AboutSection() {
             Wanna play a match?
           </PText>
           <div className="aboutSection_buttons">
-            <Button btnLink="/projects" btnText="Works" />
-            <Button btnLink="/about" btnText="Read More" outline />
+            <Button btnLink="/Portfolio/projects" btnText="Works" />
+            <Button btnLink="/Portfolio/about" btnText="Read More" outline />
           </div>
         </div>
         <div className="aboutSection_right">
