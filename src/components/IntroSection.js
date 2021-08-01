@@ -1,5 +1,5 @@
 import React from 'react';
-import IntroImg from '../assets/images/me.JPG';
+import IntroImg from '../assets/images/me-1.JPG';
 import PText from './PText';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
