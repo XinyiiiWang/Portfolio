@@ -5,6 +5,7 @@ import AboutImg from '../assets/images/about-page-img.JPG';
 import AboutPageStyle from '../styles/AboutPageStyle';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
+import Footer from '../components/Footer';
 
 export default function About() {
   return (
@@ -17,7 +18,25 @@ export default function About() {
             </p>
             <h2 className="about_heading">A Master student at KTH</h2>
             <div className="about_info">
-              <PText>My story</PText>
+              <PText>
+                Hi! I am made in China. More specifically, I am from Ningbo,
+                Zhejiang, a place which sits at the mid-point of the Chinese
+                coastline.
+                <br />
+                <br />
+                I did my Bachelor Degree of Digital Media Technology at Zhejiang
+                University in Hangzhou, Zhejiang. From there, I started to enjoy
+                the beauty of programming. For me, programming is a useful art,
+                which gives me tremendous happiness and satisfaction whenever I
+                create something cool.
+                <br />
+                <br />
+                Now I am doing my Master of Interactive Media Technology at KTH
+                Royal Institute of Technology in Stockholm, Sweden. I met lots
+                of talented people and we worked together to create fun stuffs.
+                My vision is to make a difference in peoples’ lives by creating
+                amazing applications. Let's do it!
+              </PText>
             </div>
             <Button btnLink="#" btnText="Download CV" />
           </div>
@@ -69,6 +88,7 @@ export default function About() {
         </div>
       </div>
       <ContactBanner />
+      <Footer />
     </AboutPageStyle>
   );
 }

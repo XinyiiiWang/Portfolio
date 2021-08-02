@@ -4,6 +4,7 @@ import SectionTitle from '../components/SectionTitle';
 import ProjectsStyle from '../styles/ProjectsStyle';
 import ProjectItem from '../components/ProjectItem';
 import ProjectsInfo from '../assets/data/projects';
+import Footer from '../components/Footer';
 
 export default function Projects() {
   const [searchText, setSearchText] = useState('');
@@ -48,10 +49,12 @@ export default function Projects() {
               title={item.name}
               desc={item.description}
               img={item.img}
+              link={item.link}
             />
           ))}
         </div>
       </div>
+      <Footer />
     </ProjectsStyle>
   );
 }

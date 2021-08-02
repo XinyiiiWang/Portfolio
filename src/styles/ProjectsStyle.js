@@ -7,6 +7,7 @@ const ProjectsStyle = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 5rem;
     margin-top: 5rem;
+    margin-bottom: 5rem;
   }
   .projects_searchBar {
     position: relative;

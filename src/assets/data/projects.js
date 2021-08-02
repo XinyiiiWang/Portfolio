@@ -11,24 +11,28 @@ const projects = [
     name: 'Listify',
     desc: 'The interface of customizing your playlists and discovering inspirations for your playlists.',
     img: ListifyImg,
+    link: '//martinfalke.github.io/spotify-project/#login',
   },
   {
     id: uuidv4(),
     name: 'Sabel & Tiny',
     desc: 'A 2D side scroller platform puzzle game where the player has control over Sabel and her companion Tiny as they explore the world, a moon named Mira.',
     img: SabelImg,
+    link: '//sabeltiny.github.io/',
   },
   {
     id: uuidv4(),
     name: 'Steamind',
     desc: 'Steamind is a tool for visualizing games from your own Steam library as well as other games from Steam that might suit your interests.',
     img: SteamindImg,
+    link: '//gits-15.sys.kth.se/pages/karshi/SteamViz/',
   },
   {
     id: uuidv4(),
     name: 'Spir: Take a breather with a smart coaster',
     desc: 'Take a breather with a smart coaster',
     img: SpirImg,
+    link: '//www.behance.net/gallery/106377691/Spir-Take-A-Breather-With-A-Smart-Coaster',
   },
 ];
 
