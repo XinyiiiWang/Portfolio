@@ -13,7 +13,10 @@ export default function ContactSection() {
         <div className="contactSection_wrapper">
           <div className="left">
             <ContactInfoItem icon={<MdLocalPhone />} text="+460724420618" />
-            <ContactInfoItem icon={<MdEmail />} text="xinyiw@kth.se" />
+            <ContactInfoItem
+              icon={<MdEmail />}
+              text="is.xinyiwang@outlook.com"
+            />
             <ContactInfoItem text="Stockholm, Sweden" />
           </div>
           <div className="right">
