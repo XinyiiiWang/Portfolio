@@ -19,8 +19,9 @@ export default function AboutSection() {
             Hej hej! My name is Xinyi Wang. I am made in China, currently doing
             Master of Interactive Media Technology at KTH Royal Institute of
             Technology in Stockholm, Sweden. I am a front-end developer, music
-            lover, and fika addict. I’m also a former college basketball
-            athlete. Wanna play a match?
+            lover, and fika addict. I’m also a Basketettan Dam(Division 1)
+            basketball player and former college basketball athlete. Wanna play
+            a match?
           </PText>
           <div className="aboutSection_buttons">
             <Button btnLink="/Portfolio/projects" btnText="Works" />

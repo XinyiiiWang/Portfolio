@@ -4,6 +4,7 @@ import SectionTitle from '../components/SectionTitle';
 import ProjectsStyle from '../styles/ProjectsStyle';
 import ProjectItem from '../components/ProjectItem';
 import ProjectsInfo from '../assets/data/projects';
+import ContactBanner from '../components/ContactBanner';
 import Footer from '../components/Footer';
 
 export default function Projects() {
@@ -54,6 +55,7 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      <ContactBanner />
       <Footer />
     </ProjectsStyle>
   );

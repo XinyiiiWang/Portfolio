@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import PText from '../components/PText';
 import Button from '../components/Button';
 import AboutImg from '../assets/images/about-page-img.JPG';
@@ -38,7 +39,11 @@ export default function About() {
                 amazing applications. Let's do it!
               </PText>
             </div>
-            <Button btnLink="#" btnText="Download CV" />
+
+            <Button
+              btnText="My Linkedin"
+              btnLink=" https://www.linkedin.com/in/xinyi-wang-b48290200/"
+            />
           </div>
           <div className="right">
             <img src={AboutImg} alt="" />
