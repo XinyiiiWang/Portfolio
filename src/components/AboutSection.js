@@ -18,7 +18,7 @@ export default function AboutSection() {
           <PText>
             Hej hej! My name is Xinyi Wang. I am made in China, currently doing
             Master of Interactive Media Technology at KTH Royal Institute of
-            Technology in Stockholm, Sweden. I am a front-end developer, music
+            Technology in Stockholm, Sweden. I am a software engineer, music
             lover, and fika addict. I’m also a Basketettan Dam(Division 1)
             basketball player and former college basketball athlete. Wanna play
             a match?

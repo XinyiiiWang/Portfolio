@@ -20,7 +20,7 @@ export default function IntroSection() {
           </div>
           <div className="intro_info">
             <PText>
-              I am a front-end developer, music lover, and fika addict based in
+              I am a software engineer, music lover, and fika addict based in
               Stockholm, Sweden.
             </PText>
             <Button btnLink="/Portfolio/projects" btnText="see my works" />

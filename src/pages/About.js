@@ -74,11 +74,19 @@ export default function About() {
           <div className="about_info_item">
             <h1 className="about_info_heading">Experience</h1>
             <AboutInfoItem
-              title="2021.06 - Present"
-              items={['VR developer Intern at Ericsson']}
+              title="2022.06 - Present"
+              items={['Summer Intern at Ericsson']}
             />
             <AboutInfoItem
-              title="2020.10 - Present"
+              title="2022.01 - 2022.06"
+              items={['Master Thesis Student at Ericsson']}
+            />
+            <AboutInfoItem
+              title="2021.06 - 2021.12"
+              items={['Innovation Intern at Ericsson']}
+            />
+            <AboutInfoItem
+              title="2020.10 - 2022.06"
               items={['Student Ambassador at Svenska Institutet']}
             />
             <AboutInfoItem
